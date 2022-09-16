@@ -1,0 +1,33 @@
+body{
+    background-color: #282c34;
+    color: #fff;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table,th,td{
+    border: 1px solid #5976af;
+    font-size: 1.5rem;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    border: 0.125rem double transparent;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 800;
+    line-height: 2.875rem;
+    margin-bottom: 0.7rem;
+    padding: 0 2.0625rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+button:hover{
+    background-color: #5976af;
+    color: #fff;
+}
